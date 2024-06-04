@@ -7,8 +7,6 @@ Proyek ini menggunakan teknik *Natural Language Processing* (NLP) dan *Machine L
 - [Fitur](#fitur)
 - [Instalasi](#instalasi)
 - [Penggunaan](#penggunaan)
-- [Struktur Direktori](#struktur-direktori)
-- [Kontribusi](#kontribusi)
 - [Lisensi](#lisensi)
 
 ## Pendahuluan
@@ -31,3 +29,26 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
    ```bash
    git clone https://github.com/nurlailiaanisa/nutribiteModel.git
    cd nutribiteModel
+
+2. **Instalasi Libery:**
+   ```bash
+   pip install pandas scikit-learn
+
+3. **Buat environment virtual dan aktifkan::**
+   ```bash
+   python -m venv env
+   source env/bin/activate   # Untuk pengguna Unix/macOS
+   .\env\Scripts\activate    # Untuk pengguna Windows
+
+## Penggunaan
+
+ 1. **Latih model dan simpan:**
+    ```bash
+    python mode.py
+
+2. **Uji model dan dapatkan rekomendasi:**
+   ```bash
+   python test_model.py
+
+## Lisensi
+- IMT

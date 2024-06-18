@@ -43,6 +43,8 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
 ## Penggunaan
 
 1. **Jalankan model app.py:**
+
+   Jika anda tidak memiliki URL Endpoint, dapat menggunakan Flask API untuk memperoleh URL lokal seperti ```http://127.0.0.1:5000``` atau ```http://localhost:5000```
     ```bash
     python app.py
 
@@ -126,7 +128,7 @@ Ikuti langkah-langkah berikut untuk menginstal dan menjalankan proyek ini di lin
 
 3. **Contoh Menggunakan Postman**
 
-   - Pilih metode POST dan URL endpoint ('URL Endpoint'/predict).
+   - Pilih metode POST dan URL endpoint (```(URL Endpoint)/predict```).
    - Di tab "Body", pilih "raw" dan pastikan formatnya adalah "JSON".
    - Masukkan JSON seperti contoh di atas.
    - Kirim permintaan dan lihat hasil rekomendasi.
